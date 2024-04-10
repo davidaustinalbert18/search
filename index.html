@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #google {
+            max-width: 450px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            cursor: pointer;
+        }
+        .extras {
+            cursor: pointer;
+            background-color: #f8f9fa;
+            border: none;
+            padding: 8px 15px;
+        }
+        .search-container {
+        display: flex;
+        gap: 15px;
+        margin-right: 275px;
+        }
+        .search-button {
+        padding: 8px 15px;
+        cursor: pointer;
+        border: none;
+        background-color: #f8f9fa;
+        position: relative;
+        justify-content: center;
+        }
+        .search-box {
+            padding: 8px;
+            flex: 1;
+            border-radius: 20px;
+            margin-left: 350px;
+            justify-content: center;
+        }
+        #lucky {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 8px 15px;
+            cursor: pointer;
+            border: none;
+            background-color: #f8f9fa;
+        }
+        #top {
+            text-align: right;
+        }
+        #middle {
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        .blue {
+            color: #4285f4;
+        }
+        .red {
+            color: #db4437;
+        }
+        .yellow {
+            color: #f4b400;
+        }
+        .green {
+            color: #0f9d58;
+        }
+    </style>
+    <body>
+        <br>
+        <header>
+            <div>
+                <div id="top">
+                    <a href="image.html"><button class="extras">Images</button></a>
+                    <a href="advanced.html"><button class="extras">Advanced Saerch</button></a>
+                 </div>
+                <div id="middle">
+                    <img src="https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw" alt="Google" id="google">
+                    <form action="https://www.google.com/search">
+                        <div class="search-container">
+                            <input type="text" name="q" class="search-box">
+                            <input type="submit" value="Google Search" class="search-button">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+        
+        <br>
+        <form action="https://www.google.com/search" method="GET">
+            <input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" id="lucky" name="btnI" type="submit" data-ved="0ahUKEwiNm6S0jYLrAhXslnIEHYv2B30QnRsIDg">
+        </form>
+        <h2>
+            Created by <text class="blue">D</text><text class="red">a</text><text class="yellow">v</text><text class="blue">i</text><text class="green">d</text> <text class="red">A</text><text class="blue">l</text><text class="red">b</text><text class="yellow">e</text><text class="blue">r</text><text class="green">t</text>
+        </h2>
+    </body>
+</html>
